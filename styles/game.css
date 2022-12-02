@@ -1,7 +1,7 @@
 #active-game{
     text-align: center;
     margin: 2rem 0 5rem 0;
-    /*display:none;*/
+    display:none;
 }
 
 #game-over{
@@ -9,7 +9,7 @@
     max-width:40rem;
     margin:auto;
     padding:1rem 2rem;
-    background-color: rgb(50,5,87);
+    background-color: #25274D;
     color:white;
     box-shadow:0 2px 8px rgba(0,0,0,0.2);
     border-radius:4px;
@@ -49,11 +49,11 @@
 }
 
 #game-board li:hover{
-    background-color: rgb(112,13,204);
+    background-color: #2D4159;
 }
 
 #game-board li.disabled{
-    background-color:rgb(112,13,204) ;
+    background-color: #2D4159;
     color:white;
     cursor:default;
 }
